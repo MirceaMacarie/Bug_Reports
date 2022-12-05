@@ -257,7 +257,7 @@ This repository contains reports about bugs found by myself on different website
 
 #
 
-### :two: Bug Reports for the online consumption calculator https://www.demoblaze.com/ :arrow_down:
+### :two: Bug Reports for the online consumption calculator https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ :arrow_down:
 ![Calculator](https://user-images.githubusercontent.com/115346533/205721765-fd690630-504e-4c8f-bded-4ddd234f7c68.jpg)
 
 
