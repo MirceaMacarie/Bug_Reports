@@ -51,6 +51,7 @@ This repository contains reports about bugs found by myself on different website
 **Test data:** Username: Ceao & Password: 1234
 
 **Attachments:**
+
 ![bug](https://user-images.githubusercontent.com/115346533/205721092-d5a565e8-89e1-4fb5-adff-54284b02a597.jpg)
 
 #
@@ -282,6 +283,7 @@ This repository contains reports about bugs found by myself on different website
 **Test data:** /
 
 **Attachments:**
+
 ![bug_image](https://user-images.githubusercontent.com/115346533/205722414-6bd31243-648d-436d-b2b7-8fbc0582f5f7.jpg)
 
 #
