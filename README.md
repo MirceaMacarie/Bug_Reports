@@ -32,29 +32,33 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-2
 
-**Bug title:**
+**Bug title:** The empty contact form is considered "sent"
 
-**Priority and severity:**
+**Priority and severity:** P3 - Normal
 
-**Description:** 
+**Description:** If user clicks on "Contact" and then press "Sent message" button, it is shown the notification  "Thanks for the message!!" (like in the attached image), and not a warning that the form is empty.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go to the site https://www.demoblaze.com/
+2. Log in with correct username and password
+3. Click on Contact without complete the form
+4. Click on "Sent message"
 
-**Expected result:** 
+**Expected result:** Show a notification for user that the form is empty.
 
-**Actual result:** 
+**Actual result:** It is shown a pop-up with "Thanks for the message!!".
 
-**Test data:** 
+**Test data:** Username: Ceao & Password: 1234
+
+**Attachments:**
+![bug](https://user-images.githubusercontent.com/115346533/205721092-d5a565e8-89e1-4fb5-adff-54284b02a597.jpg)
 
 #
 
 
 **Bug ID:** BR-3
 
-**Bug title:** The email adress is unnecessary to sign up/ log in
+**Bug title:** The email adress is unnecessary to sign up / log in
 
 **Priority and severity:** P3 - Normal
 
@@ -253,6 +257,10 @@ This repository contains reports about bugs found by myself on different website
 
 #
 
+### :two: Bug Reports for the online consumption calculator https://www.demoblaze.com/ :arrow_down:
+![Calculator](https://user-images.githubusercontent.com/115346533/205721765-fd690630-504e-4c8f-bded-4ddd234f7c68.jpg)
+
+
 
 **Bug ID:** BR-13
 
@@ -264,13 +272,17 @@ This repository contains reports about bugs found by myself on different website
 
 **Steps to reproduce:**
 1. Go on the https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/
-2. Look on the right side of the screen.
+2. Increase to 1 the number from the input "I had ... cups of coffee"
+3. Look on the right side of the screen.
 
 **Expected result:** To see a normally loaded image on the main page under certain conditions, or to see nothing, not even the unloaded image symbol.
 
 **Actual result:** The unloaded image symbol can be seen on the main page of the application, on the right side of the page.
 
 **Test data:** /
+
+**Attachments:**
+![bug_image](https://user-images.githubusercontent.com/115346533/205722414-6bd31243-648d-436d-b2b7-8fbc0582f5f7.jpg)
 
 #
 
