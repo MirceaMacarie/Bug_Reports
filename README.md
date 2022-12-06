@@ -487,34 +487,184 @@ This repository contains reports about bugs found by myself on different website
 ------
 
 
-### :three: Bug Reports for the website of Techirghiol Townhall https://www.primariatechirghiol.ro/ :arrow_down:
+### :three: Bug Reports for the website of Techirghiol town hall https://www.primariatechirghiol.ro/ :arrow_down:
 ![screenshot](https://user-images.githubusercontent.com/115346533/205991540-fb29d651-fd66-4d1b-abaa-75ef08515732.jpg)
 
 
 
 **Bug ID:** BR-23
 
-**Bug title:** 
+**Bug title:** The Copyright of the website for the current year
 
-**Priority and severity:**
+**Priority and severity:** P4 - Low
 
-**Description:** 
+**Description:** The Copyright of the website is not updated for the current year (in that case for 2022), but for 2021 (previous year).
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Scroll down to the footer of the website, where are Copyright details 
 
-**Expected result:** 
+**Expected result:** It is expected to see the Copyright updated for the current year (2022) in the footer of the website.
 
-**Actual result:** 
+**Actual result:** The Copyright is not updated for the current year, but for the previous one (2021).
 
-**Test data:** 
+**Test data:** /
 
 #
 
 
-**Bug ID:** BR-16
+**Bug ID:** BR-24
+
+**Bug title:** The Start button and Volume button of the main page video do not work
+
+**Priority and severity:** P3 - Normal
+
+**Description:** When the video on the home page is turned on in a restricted format, the Start button and the Volume button in the lower left corner do not work properly.
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Click on the video interface from the home page
+3. Click on the Start button or Volume button from the lower left corner
+
+**Expected result:** The video should stop when user clicks on the Start button, or to mute when user clicks on the Volume button.
+
+**Actual result:** The Start button or Volume button does not make anything.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-25
+
+**Bug title:** The "404" error page does not have a search bar for user
+
+**Priority and severity:** P4 - Low
+
+**Description:** The "404" error page does not have a search field for additional information and does not provide any indication to the user.
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Write in the URL adress something random, without any meaning/ which does not exist on this website.
+
+**Expected result:** A "404" custom error page should be displayed, with a search bar for additional information, or additional tips to help the user to find relevant results. 
+
+**Actual result:** The "404" custom error page does not have a search bar for more information, and it does not help the user to find what he is looking for.
+
+**Test data:** "https://www.primariatechirghiol.ro/pisici-cu-raze-laser"
+
+#
+
+
+**Bug ID:** BR-26
+
+**Bug title:** In the Photo Gallery, the images cannot be viewed by switching between them
+
+**Priority and severity:** P3 - Medium
+
+**Description:** In the Photo Gallery section, the images cannot be viewed by switching between them with an arrow button, but must be selected and deselected one at a time.
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Select Photo Gallery section from the left menu of the home page
+3. Select one photo and try to switch between them
+
+**Expected result:** The user should switch the photo between them with an arrow button, in the same interface. 
+
+**Actual result:** The user must select a picture, then deselect it and choose another from the gallery.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-27
+
+**Bug title:** The Contact section size font is too small for a normal user
+
+**Priority and severity:** P3 - Medium
+
+**Description:** The font size in the Contact section is too small to be easily read by a normal user, compared to other sections that have a larger font size (eg. Purchasing section).
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Select Contact section from the top menu of the home page
+3. Try to read the information on this page
+
+**Expected result:** The user should read easily any type of information about Town Hall contact.
+
+**Actual result:** The information from Contact section are rather difficult to read by users, because the size font is too small. 
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-28
+
+**Bug title:** No concrete information in the Botanical Garden section
+
+**Priority and severity:** P3 - Low
+
+**Description:** The Botanical Garden section of the bottom-left menu of the main page does not provide any concrete information about it, but only a picture with a digital simulation of the garden.
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/
+2. Select Botanical Garden section from the bottom-left menu of the main page
+
+**Expected result:** This section should contain relevant information about Botanical Garden of the Techirghiol town, information like schedule or entrance fees.
+
+**Actual result:** There is no relevant information about this public objective, only a picture with a digital simulation of the garden.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-29
+
+**Bug title:** The logo does not contain a link to the main page
+
+**Priority and severity:** P3 - Normal
+
+**Description:** The town hall logo from the header of the website does not contain any link to the main page.
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Select a random section from the menu
+3. Click on the town hall logo from the header of the website
+
+**Expected result:** After clicking of the logo, the user should see the main page.
+
+**Actual result:** The town hall logo does not make anything.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-30
+
+**Bug title:** There is no Search bar on this site
+
+**Priority and severity:** P2 - High
+
+**Description:** There is no search bar for relevant information on this site.
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/
+2. Try to search something on that site, without knowing in which section to look
+
+**Expected result:** In the upper right / left corner of the home page menu should be a search bar, for helping the user to find anything on the site.
+
+**Actual result:** There is no search bar on this site.
+
+**Test data:** "Cont IBAN"
+
+#
+
+
+**Bug ID:** BR-31
 
 **Bug title:**
 
@@ -536,7 +686,7 @@ This repository contains reports about bugs found by myself on different website
 #
 
 
-**Bug ID:** BR-16
+**Bug ID:** BR-32
 
 **Bug title:**
 
@@ -557,3 +707,68 @@ This repository contains reports about bugs found by myself on different website
 
 #
 
+
+**Bug ID:** BR-33
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
+
+
+**Bug ID:** BR-34
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
+
+
+**Bug ID:** BR-35
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
