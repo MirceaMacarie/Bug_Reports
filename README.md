@@ -256,7 +256,8 @@ This repository contains reports about bugs found by myself on different website
 
 **Test data:** /
 
-#
+------
+
 
 ### :two: Bug Reports for the online consumption calculator https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ :arrow_down:
 ![Calculator](https://user-images.githubusercontent.com/115346533/205721765-fd690630-504e-4c8f-bded-4ddd234f7c68.jpg)
@@ -291,7 +292,209 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-14
 
-**Bug title:**
+**Bug title:** "404" Error page is not custom for users
+
+**Priority and severity:** P4 - Low
+
+**Description:** There is no "404" custom page for this webapp, which can help the user to find what he is looking for.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/
+2. Write in the URL adress something random, without any meaning/ which does not exist on this website.
+
+**Expected result:** It is expected to see a "404" custom page, with the logo / home button to return to the main page and eventually a search bar for helping the user to find what he is looking for.
+
+**Actual result:** The user is redirected to the https://www.globalsqa.com/.
+
+**Test data:** "https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/pisici-gratuite"
+
+#
+
+
+**Bug ID:** BR-15
+
+**Bug title:** There is no Copyright or details about author
+
+**Priority and severity:** P5 - Low
+
+**Description:** There is no updated Copyright in the website footer, or a special section with information about author / content creator ("About us"). 
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
+2. Scroll down to the footer of the website.
+
+**Expected result:** It is expected to see the Copyright updated to current year (2022 in that case) and a "About Us" button containing a link to information about the site author.
+
+**Actual result:** There is no updated Copyright or "About us" section in the footer of the website, or in other place.
+
+**Test data:** "https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/"
+
+#
+
+
+**Bug ID:** BR-16
+
+**Bug title:** The problem of displaying the final value with too many digits
+
+**Priority and severity:** P1 - High
+
+**Description:** The application does not display the final result correctly if it is a number that has more than 70 digits.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
+2. In the first input of the calculator (Cups of coffee) introduce a number that has more than 70 digits.
+
+**Expected result:** To see the final and the correct result of the product of multiplication in the third input.
+
+**Actual result:** There is no number shown in the final input.
+
+**Test data:** Cups of coffee: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+#
+
+
+**Bug ID:** BR-17
+
+**Bug title:** The warning and image are not displayed correctly on the tar calculator
+
+**Priority and severity:** P2 - High
+
+**Description:** On the tar calculator if we have 2.99 x 10, the result is 30, but the image and the warning message are not displayed as at 3 x 10 = 30.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
+2. Write a value greater than 2.95 in the "I had … cigarettes" input
+3. Check for the value 10 in the "mg for tar per cigarette" input
+
+**Expected result:** To display the message that users have exceeded the tar limit and the image with the anti-smoking sign, because the computer rounds off the results.
+
+**Actual result:** The warning message and the anti-smoking image are not diplayed on the main page.
+
+**Test data:** "I had … cigarettes": 2.99 & "mg for tar per cigarette": 10
+
+#
+
+
+**Bug ID:** BR-18
+
+**Bug title:** The anti-smoking sign image does not fit in the website design
+
+**Priority and severity:** P5 - Low
+
+**Description:** When the image with the anti-smoking symbol is displayed, it does not fit correctly in the page layout, and the unloaded image symbol still appears next to the image.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
+2. Write a value greater than 2 in the "I had … cigarettes" input
+
+**Expected result:** The image with anti-smoking sign have to fit properly in the calculator design.
+
+**Actual result:** The image has a too large resolution for the website design, and the unloaded image symbol still appears. (see the attached photo)
+
+**Test data:** "I had … cigarettes": 3
+
+**Attachments:** 
+
+![Bug_img](https://user-images.githubusercontent.com/115346533/205987505-0fb5caf6-c7d0-41d7-b358-005bec8f3089.jpg)
+
+#
+
+
+**Bug ID:** BR-19
+
+**Bug title:** The coffee image that does not load from the console
+
+**Priority and severity:** P3 - Normal
+
+**Description:** In the Console, in the images section, there is a source with an image with a coffee (Coffeescript.sh-600x600.png), but it is not loaded at all, the format is not appropriate and sent back to another page.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
+2. Press F12 key and select Sources, then Images
+3. Select the file "Coffeescript.sh-600x600.png"
+
+**Expected result:** The image file should be displayed to see properly into the console.
+
+**Actual result:** The image file does not have the appropriate format and forward to another page.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-20
+
+**Bug title:** The result is wrong if the second decimal is less than 5
+
+**Priority and severity:** P4 - Normal
+
+**Description:** The result is not displayed correctly, if the first decimal is 0 and is followed by a decimal less than 5. Only if it is 1.04 followed by 15 digits of "9" then it is rounded to 1.05 .
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
+2. Write in the "I had … cups of coffee" / "I had … cigarettes" the value 1.049
+3. Then replace 1.049 with 1.04999999999999999
+
+**Expected result:** The result of the first calculation should be 10.5 or 11 (rounded), and the result of the second calclulation should be shown rounded after first digit of  "9".
+
+**Actual result:** The result of the first calculation is 10, and the result of second calculation is 11 only after the value of 1.04999999999999999 (14 digits of "9").
+
+**Test data:** "I had … cups of coffee": 1.049 & "I had … cigarettes": 1.04999999999999999
+
+#
+
+
+**Bug ID:** BR-21
+
+**Bug title:** Arbitrary modification of the final amount of caffeine and caffeine per cup leads to meaningless calculations
+
+**Priority and severity:** P2 - High
+
+**Description:** If on the caffeine calculator user arbitrarily changes the final amount and then arbitrarily changes the amount of caffeine per cup, calculations without mathematical meaning result, because the parameters do not automatically adjust to each other.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
+2. Write value 1 in the "I had … cups of coffee" input
+3. Write value 100 in the "mg of caffeine" input
+
+**Expected result:** It is expected the "mg of caffeine per cup" to change according on the other two parameters, so that a correct mathematical calculation results, in this case "mg of caffeine per cup" should be 100.
+
+**Actual result:** The "mg of caffeine per cup" is set to default value, 107.5 mg.
+
+**Test data:** "I had … cups of coffee": 1 & "mg of caffeine": 100
+
+#
+
+
+**Bug ID:** BR-22
+
+**Bug title:** Insufficient information about the computer and how to interpret the data by the user
+
+**Priority and severity:** P3 - Normal
+
+**Description:** There is no detailed information about this calculator, its utility or advice for users based on the amounts of caffeine or tar they consume daily.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
+2. Write value 4 in the "I had … cigarettes"
+
+**Expected result:** It is expected to receive some detailed analysis about these parameters, how they can influence the users health, and / or advice for decreasing the daily consumed quantity of caffeine/ tar.
+
+**Actual result:** It is shown a standard message that user exceeded the daily maximum intake of tar, but with no explanation or detailed about this quantity, or why is bad for user to overtake this limit.
+
+**Test data:** "I had … cigarettes": 4
+
+------
+
+
+### :three: Bug Reports for the website of Techirghiol Townhall https://www.primariatechirghiol.ro/ :arrow_down:
+![screenshot](https://user-images.githubusercontent.com/115346533/205991540-fb29d651-fd66-4d1b-abaa-75ef08515732.jpg)
+
+
+
+**Bug ID:** BR-23
+
+**Bug title:** 
 
 **Priority and severity:**
 
@@ -311,7 +514,7 @@ This repository contains reports about bugs found by myself on different website
 #
 
 
-**Bug ID:** BR-15
+**Bug ID:** BR-16
 
 **Bug title:**
 
@@ -353,3 +556,4 @@ This repository contains reports about bugs found by myself on different website
 **Test data:** 
 
 #
+
