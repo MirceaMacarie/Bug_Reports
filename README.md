@@ -15,7 +15,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Priority and severity:** P5 - Low
 
-**Description:** When user logs in on the site with username and password, the "Welcome User" button/ link from the upper-right corner makes nothing.
+**Description:** When user logs in on the site with username and password, the "Welcome User" button / link from the upper-right corner makes nothing.
 
 **Steps to reproduce:**
 1. Go to the site https://www.demoblaze.com/
@@ -37,7 +37,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Priority and severity:** P3 - Normal
 
-**Description:** If user clicks on "Contact" and then press "Sent message" button, it is shown the notification  "Thanks for the message!!" (like in the attached image), and not a warning that the form is empty.
+**Description:** If user clicks on "Contact" and then press "Sent message" button, it is shown the notification "Thanks for the message!!" (like in the attached image), and not a warning that the form is empty.
 
 **Steps to reproduce:**
 1. Go to the site https://www.demoblaze.com/
@@ -136,8 +136,8 @@ This repository contains reports about bugs found by myself on different website
 1. Go to the site https://www.demoblaze.com/
 2. Log in with the correct credentials
 3. Select one product from the main list and click "Add to cart"
-4. Click on the Cart section to see the product
-5. Click on the ”Place order” button
+4. Click on the "Cart section" to see the product
+5. Click on the "Place order" button
 6. Complete the name section and one digit in the creditcard section
 7. Click on "Purchase" button
 
@@ -167,7 +167,7 @@ This repository contains reports about bugs found by myself on different website
 6. Complete the purchasing form
 7. Click on "Purchase" button
 
-**Expected result:** It is expected to see a special button/ section with detalis about user purchasing, or to see details in Cart section.
+**Expected result:** It is expected to see a special button / section with detalis about user purchasing, or to see details in "Cart" section.
 
 **Actual result:** There is no section with information on purchased items.
 
@@ -188,7 +188,7 @@ This repository contains reports about bugs found by myself on different website
 1. Go to the site https://www.demoblaze.com/
 2. Write in the URL adress something random, without any meaning / which does not exist on this website.
 
-**Expected result:** A "404" custom page is expected to be seen with the logo/ home button to return to the main page and eventually a search bar, if user is searching something that does not exist on the website.
+**Expected result:** A "404" custom page is expected to be seen with the logo / home button to return to the main page and eventually a search bar, if user is searching something that does not exist on the website.
 
 **Actual result:** It is shown a simple page with the "Error" text, without any link to the main page or additional advice to search correctly on the website.
 
@@ -301,7 +301,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Steps to reproduce:**
 1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/
-2. Write in the URL adress something random, without any meaning/ which does not exist on this website.
+2. Write in the URL adress something random, without any meaning / which does not exist on this website.
 
 **Expected result:** It is expected to see a "404" custom page, with the logo / home button to return to the main page and eventually a search bar for helping the user to find what he is looking for.
 
@@ -407,7 +407,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Priority and severity:** P3 - Normal
 
-**Description:** In the Console, in the images section, there is a source with an image with a coffee (Coffeescript.sh-600x600.png), but it is not loaded at all, the format is not appropriate and sent back to another page.
+**Description:** In the Console, in the "Images" section, there is a source with an image with a coffee (Coffeescript.sh-600x600.png), but it is not loaded at all, the format is not appropriate and sent back to another page.
 
 **Steps to reproduce:**
 1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
@@ -479,7 +479,7 @@ This repository contains reports about bugs found by myself on different website
 1. Go on https://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/ 
 2. Write value 4 in the "I had … cigarettes"
 
-**Expected result:** It is expected to receive some detailed analysis about these parameters, how they can influence the users health, and / or advice for decreasing the daily consumed quantity of caffeine/ tar.
+**Expected result:** It is expected to receive some detailed analysis about these parameters, how they can influence the users health, and / or advice for decreasing the daily consumed quantity of caffeine / tar.
 
 **Actual result:** It is shown a standard message that user exceeded the daily maximum intake of tar, but with no explanation or detailed about this quantity, or why is bad for user to overtake this limit.
 
@@ -516,7 +516,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-24
 
-**Bug title:** The Start button and Volume button of the main page video do not work
+**Bug title:** The "Start" button and "Volume" button of the main page video do not work
 
 **Priority and severity:** P3 - Normal
 
@@ -563,11 +563,11 @@ This repository contains reports about bugs found by myself on different website
 
 **Priority and severity:** P3 - Medium
 
-**Description:** In the Photo Gallery section, the images cannot be viewed by switching between them with an arrow button, but must be selected and deselected one at a time.
+**Description:** In the "Photo Gallery" section, the images cannot be viewed by switching between them with an arrow button, but must be selected and deselected one at a time.
 
 **Steps to reproduce:**
 1. Go on https://www.primariatechirghiol.ro/ 
-2. Select Photo Gallery section from the left menu of the home page
+2. Select "Photo Gallery" section from the left menu of the home page
 3. Select one photo and try to switch between them
 
 **Expected result:** The user should switch the photo between them with an arrow button, in the same interface. 
@@ -585,16 +585,16 @@ This repository contains reports about bugs found by myself on different website
 
 **Priority and severity:** P3 - Medium
 
-**Description:** The font size in the Contact section is too small to be easily read by a normal user, compared to other sections that have a larger font size (eg. Purchasing section).
+**Description:** The font size in the Contact section is too small to be easily read by a normal user, compared to other sections that have a larger font size (eg. "Purchasing" section).
 
 **Steps to reproduce:**
 1. Go on https://www.primariatechirghiol.ro/ 
-2. Select Contact section from the top menu of the home page
+2. Select "Contact" section from the top menu of the home page
 3. Try to read the information on this page
 
 **Expected result:** The user should read easily any type of information about Town Hall contact.
 
-**Actual result:** The information from Contact section are rather difficult to read by users, because the size font is too small. 
+**Actual result:** The information from "Contact" section are rather difficult to read by users, because the size font is too small. 
 
 **Test data:** /
 
@@ -603,15 +603,15 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-28
 
-**Bug title:** No concrete information in the Botanical Garden section
+**Bug title:** No concrete information in the "Botanical Garden" section
 
 **Priority and severity:** P3 - Low
 
-**Description:** The Botanical Garden section of the bottom-left menu of the main page does not provide any concrete information about it, but only a picture with a digital simulation of the garden.
+**Description:** The "Botanical Garden" section of the bottom-left menu of the main page does not provide any concrete information about it, but only a picture with a digital simulation of the garden.
 
 **Steps to reproduce:**
 1. Go on https://www.primariatechirghiol.ro/
-2. Select Botanical Garden section from the bottom-left menu of the main page
+2. Select "Botanical Garden" section from the bottom-left menu of the main page
 
 **Expected result:** This section should contain relevant information about Botanical Garden of the Techirghiol town, information like schedule or entrance fees.
 
@@ -667,11 +667,11 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-31
 
-**Bug title:** The News link button in the footer of the site does not work
+**Bug title:** The "News" link button in the footer of the site does not work
 
 **Priority and severity:** P2 - High
 
-**Description:** The News link button in the footer of the site does not work. Specifically, it leads to an error page and does not provide any news to users.
+**Description:** The "News" link button in the footer of the site does not work. Specifically, it leads to an error page and does not provide any news to users.
 
 **Steps to reproduce:**
 1. Go on https://www.primariatechirghiol.ro/ 
@@ -712,15 +712,15 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-33
 
-**Bug title:** The Town Hall Management section does not provide relevant information for citizens
+**Bug title:** The "Town Hall Management" section does not provide relevant information for citizens
 
 **Priority and severity:** P2 - Normal
 
-**Description:** The Town Hall Management section does not provide relevant information for citizens about the mayor and other political leaders, such as CVs or wealth declarations.
+**Description:** The "Town Hall Management" section does not provide relevant information for citizens about the mayor and other political leaders, such as CVs or wealth declarations.
 
 **Steps to reproduce:**
 1. Go on https://www.primariatechirghiol.ro/ 
-2. Select Town Hall Management (”Conducerea primăriei”) section from the left menu of the home page
+2. Select Town Hall Management ("Conducerea primăriei") section from the left menu of the home page
 
 **Expected result:** The user should find easily any relevant details or documents about the mayor of the town or other political leaders, because these are publical information for everyone.
 
@@ -801,7 +801,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-37
 
-**Bug title:** The City Hall Management section does not contain links for all town hall members
+**Bug title:** The "City Hall Management" section does not contain links for all town hall members
 
 **Priority and severity:** P4 - Low
 
@@ -809,7 +809,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Steps to reproduce:**
 1. Go on https://www.primariapn.ro/ 
-2. Click on City Hall Management button ("Conducerea primăriei") from the left menu of the home page
+2. Click on "City Hall Management" button ("Conducerea primăriei") from the left menu of the home page
 
 **Expected result:** All the members of the mayor's office should have a valid link with additional information about, like CVs.
 
@@ -844,11 +844,11 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-39
 
-**Bug title:** The Useful Information section does not have links to all documents
+**Bug title:** The "Useful Information" section does not have links to all documents
 
 **Priority and severity:** P3 - Low
 
-**Description:** In the Useful Information section ("Informații utile"), not all the mentioned documents has a valid link attached, and some information is not updated for current year (2022).
+**Description:** In the "Useful Information" section ("Informații utile"), not all the mentioned documents has a valid link attached, and some information is not updated for current year (2022).
 
 **Steps to reproduce:**
 1. Go on https://www.primariapn.ro/ 
@@ -870,17 +870,17 @@ This repository contains reports about bugs found by myself on different website
 
 **Priority and severity:** P3 - Normal
 
-**Description:** In the Public Information / Public Services section, not all text is increased if we click on the Enlarge Font button ("Mărește Fontul") in the upper-right corner of the menu bar.
+**Description:** In the Public Information / "Public Services" section, not all text is increased if we click on the "Enlarge Font" button ("Mărește Fontul") in the upper-right corner of the menu bar.
 
 **Steps to reproduce:**
 1. Go on https://www.primariapn.ro/ 
-2. Click on Public Information section from the top menu
-3. Select Public Services section from the list
+2. Click on "Public Information" section from the top menu
+3. Select "Public Services" section from the list
 4. Click on Enlarge Font button
 
 **Expected result:** All the text of this section should be uniformly increased, in order to be easily read by the users.
 
-**Actual result:** Only link and titles are enlarged if we click on the Enlarge Font button.
+**Actual result:** Only link and titles are enlarged if we click on the "Enlarge Font" button.
 
 **Test data:** /
 
@@ -897,7 +897,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Steps to reproduce:**
 1. Go on https://www.primariapn.ro/ 
-2. Click on Online account creation procedure button ("Procedură creare cont online") from the right menu of the home page
+2. Click on "Online account creation procedure" button ("Procedură creare cont online") from the right menu of the home page
 
 **Expected result:** The steps for creating a new account are expected to be described as clearly as possible, and to be completed exclusively online by the user.
 
@@ -914,20 +914,20 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-42
 
-**Bug title:** The Local Police section does not contain any information
+**Bug title:** The "Local Police" section does not contain any information
 
 **Priority and severity:** P3 - Low
 
-**Description:** The Local Police section ("Poliția Locală") does not contain any necessary information for users.
+**Description:** The "Local Police" section ("Poliția Locală") does not contain any necessary information for users.
 
 **Steps to reproduce:**
 1. Go on https://www.primariapn.ro/ 
 2. Click on Publical Services section from the top menu
-3. Select "Local Police"
+3. Select "Local Police" button
 
 **Expected result:** It is expected to see relevant information about Local Police of Piatra-Neamț, like Police stations and their adresses, phone numbers, operational staff etc.
 
-**Actual result:** The Local Police section from this site does not contain any information for the users.
+**Actual result:** The "Local Police" section from this site does not contain any information for the users.
 
 **Test data:** /
 
@@ -946,11 +946,11 @@ This repository contains reports about bugs found by myself on different website
 1. Go on https://www.primariapn.ro/
 2. Search general information in the website about Piatra-Neamț
 
-**Expected result:** It is expected to exist a special button/ section with a general presentation of the town, which can be accessed easily.
+**Expected result:** It is expected to exist a special button / section with a general presentation of the town, which can be accessed easily.
 
 **Actual result:** It does not exist a direct link button to general presentation information of Piatra-Neamț. This section can be accessed only by URL or search bar.
 
-**Test data:** ”prezentare oraș” in search bar or URL
+**Test data:** "prezentare oraș" in search bar or URL
 
 #
 
@@ -1067,7 +1067,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Actual result:** The links are broken, and they open error pages.
 
-**Test data:** https://www.primariapn.ro/activitate-sociala
+**Test data:** "https://www.primariapn.ro/activitate-sociala"
 
 ------
 
@@ -1155,7 +1155,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Steps to reproduce:**
 1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
-2. Click on Customer login button
+2. Click on "Customer login" button
 3. Select one customer from the list and login
 4. Click on "Deposit" button
 5. Write a decimal value in the Amount to be Deposited input
@@ -1179,7 +1179,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Steps to reproduce:**
 1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
-2. Click on Customer login button
+2. Click on "Customer login" button
 3. Select one customer from list and login
 4. Click on "Transactions" button
 5. Deposit an amount of money, then click again on "Transactions"
@@ -1217,7 +1217,7 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-55
 
-**Bug title:** The Home button has the same functionality as the Logout button
+**Bug title:** The "Home" button has the same functionality as the Logout button
 
 **Priority and severity:** P1 - Critical
 
@@ -1226,11 +1226,11 @@ This repository contains reports about bugs found by myself on different website
 **Steps to reproduce:**
 1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
 2. Select a customer from the list and login
-3. Click on the Home button from the left corner
+3. Click on the "Home" button from the left corner
 
 **Expected result:** The app should show the Home page, and the customer should stay logged in.
 
-**Actual result:** The Home button logs the client out of its account, as Logout button.
+**Actual result:** The "Home" button logs the client out of its account, as Logout button.
 
 **Test data:** /
 
