@@ -985,6 +985,192 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-45
 
+**Bug title:** The translation functionality does not work for the whole text of the website
+
+**Priority and severity:** P2 - High
+
+**Description:** When a language is selected in which to translate the site (in this case French) not the whole text is translated, but only fragments and isolated words. (See the attachment)
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Select French from the translation menu in the upper-right corner
+
+**Expected result:** The whole text of the website should be translated in French.
+
+**Actual result:** Only fragments and isolated words are translated in the selected foreign language, the other part of the text is still presented in Romanian. 
+
+**Test data:** /
+
+**Attachments:**
+
+![Incomplete translation](https://user-images.githubusercontent.com/115346533/206235976-9fbc0614-aada-4a07-9ecb-db05be78101b.jpg)
+
+#
+
+
+**Bug ID:** BR-46
+
+**Bug title:** The site is loading harder on the Mozilla browser
+
+**Priority and severity:** P3 - Normal
+
+**Description:** The site requires more loading time on the Mozilla browser (more than 3 seconds) compared to Google Chrome and Microsoft Edge.
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ in Mozilla browser
+2. Open the Console by pressing F12 key and select Network
+3. Press CTRL + R
+
+**Expected result:** The website should load pretty fast, in less than 3 seconds.
+
+**Actual result:** The loading time of this website on Mozilla browser is greater than 3 seconds.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-47
+
+**Bug title:** The link to the Neamț County Council does not work
+
+**Priority and severity:** P3 - Normal
+
+**Description:** The link to the Neamț County Council website on the main page does not work, an error being reported.
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Click on the Neamț County Council link ("Consiliul Județean Neamț") from the bottem-left menu of the home page
+
+**Expected result:** The website of the Neamț County Council should open normally, in order to be accessed by users.
+
+**Actual result:** When the link is select, an error page is open.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-48
+
+**Bug title:** The links associated with the images on the Social Life page are broken
+
+**Priority and severity:** P3 - Normal
+
+**Description:** The links associated with the pictures on the Social Life page open in error.
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/activitate-sociala
+2. Click on the images from this section
+
+**Expected result:** After selecting the images, it should open a 360-degree panoramic image.
+
+**Actual result:** The links are broken, and they open error pages.
+
+**Test data:** https://www.primariapn.ro/activitate-sociala
+
+------
+
+
+### :five: Bug Reports for the online demo banking website https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login :arrow_down:
+![bank](https://user-images.githubusercontent.com/115346533/206239594-b7941008-5a2e-4d33-aeef-2806d1b273e0.jpg)
+
+
+
+**Bug ID:** BR-49
+
+**Bug title:** No information about copyright or banking policy
+
+**Priority and severity:** P4 - Low
+
+**Description:** There is no information about banking policy, copyright or other helpful guidance for a novice user.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+
+**Expected result:** On the home page of the website should be information about Copyright and other useful guidance for users, for helping them.
+
+**Actual result:** There is no information about this banking app, or about the author.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-50
+
+**Bug title:** The number of the amount deposited can start with 0
+
+**Priority and severity:** P2 - High
+
+**Description:** When depositing a sum of money, the number can have its first digit 0 (eg. 0100).
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
+2. Click on Customer login button
+3. Select one customer from the list and login
+4. Click on Deposit button and write a number which starts with 0
+5. Press Deposit button under Amount input
+
+**Expected result:** It is expected the banking app should show an alert message that the deposited sum is incorrect written, because it is starting with digit 0.
+
+**Actual result:** It is shown the message "Deposit Successful".
+
+**Test data:** Amount to be Deposited: "0100"
+
+#
+
+
+**Bug ID:** BR-51
+
+**Bug title:** Amounts with negative values can be selected for deposits and withdrawals
+
+**Priority and severity:** P2 - High
+
+**Description:** For deposits and withdrawals, negative values can be selected with the help of the spin-button element, which do not make any mathematical sense, because they cannot be added or withdrawn.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2. Click on Customer login button
+3. Select one customer from the list and login
+4. Press on spin-button and select a negative value 
+5. Click on "Deposit" button under Amount input
+
+**Expected result:** The banking app should show an alert message that the selected amount is a negative one, and it can not be deposited or withdrawn.
+
+**Actual result:** The negative value could be selected with spin-button, then nothing happens.
+
+**Test data:** Amount to be Deposited: "-1"
+
+#
+
+
+**Bug ID:** BR-52
+
+**Bug title:** No deposits or withdrawals can be made with decimal values
+
+**Priority and severity:** P2 - High
+
+**Description:** When we make deposits or withdrawals from the account, we can write decimal values in the input, but we are not allowed the transaction, being necessary only positive integers.
+
+**Steps to reproduce:**
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
+2. Click on Customer login button
+3. Select one customer from the list and login
+4. Click on "Deposit" button
+5. Write a decimal value in the Amount to be Deposited input
+
+**Expected result:** The user should be able to deposit or withdraw a decimal amount of money.
+
+**Actual result:** It is shown an alert message to write valid integer numbers in Amount input.
+
+**Test data:** Amount to be Deposited: "10.5"
+
+#
+
+
+**Bug ID:** BR-53
+
 **Bug title:**
 
 **Priority and severity:**
@@ -1005,7 +1191,139 @@ This repository contains reports about bugs found by myself on different website
 #
 
 
-**Bug ID:** BR-46
+**Bug ID:** BR-54
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
+
+
+**Bug ID:** BR-55
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
+
+
+**Bug ID:** BR-56
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
+
+
+**Bug ID:** BR-57
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
+
+
+**Bug ID:** BR-58
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
+
+
+**Bug ID:** BR-59
+
+**Bug title:**
+
+**Priority and severity:**
+
+**Description:** 
+
+**Steps to reproduce:**
+1. 
+2. 
+3.
+
+**Expected result:** 
+
+**Actual result:** 
+
+**Test data:** 
+
+#
+
+
+**Bug ID:** BR-60
 
 **Bug title:**
 
