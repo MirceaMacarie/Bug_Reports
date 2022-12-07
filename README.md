@@ -1171,175 +1171,163 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-53
 
-**Bug title:**
+**Bug title:** The transaction history can be viewed only if a banking operation is currently performed
 
-**Priority and severity:**
+**Priority and severity:** P3 - Normal
 
-**Description:** 
+**Description:** A customer's transaction history can be viewed only if a bank deposit or withdrawal transaction is currently being performed.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
+2. Click on Customer login button
+3. Select one customer from list and login
+4. Click on "Transactions" button
+5. Deposit an amount of money, then click again on "Transactions"
 
-**Expected result:** 
+**Expected result:** After login, the customer should be able to see the transactions by clicking the "Transactions" button, without any additional action.
 
-**Actual result:** 
+**Actual result:** The customer can see the transactions history after he performed a deposit or withdrawal.
 
-**Test data:** 
+**Test data:** Amount to be Deposited: "100"
 
 #
 
 
 **Bug ID:** BR-54
 
-**Bug title:**
+**Bug title:** Accessing a client's account is done without a password
 
-**Priority and severity:**
+**Priority and severity:** P1 - Critical
 
-**Description:** 
+**Description:** When a customer's situation is selected to be viewed, it is necessary to select only the username, without any password or other way to check the security of the account.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
+2. Click on "Customer login" button
+3. Select a custom from the list
 
-**Expected result:** 
+**Expected result:** After the selecting of a customer from the list, the banking app should ask for a password for that account, to ensure the security of the customer.
 
-**Actual result:** 
+**Actual result:** It is necessary only the username of the customer, and then anyoane could login in that account, without any password.
 
-**Test data:** 
+**Test data:** /
 
 #
 
 
 **Bug ID:** BR-55
 
-**Bug title:**
+**Bug title:** The Home button has the same functionality as the Logout button
 
-**Priority and severity:**
+**Priority and severity:** P1 - Critical
 
-**Description:** 
+**Description:** When a customer is logged in to their account and presses the Home button, the result is logging out of the account, just like the Logout button.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
+2. Select a customer from the list and login
+3. Click on the Home button from the left corner
 
-**Expected result:** 
+**Expected result:** The app should show the Home page, and the customer should stay logged in.
 
-**Actual result:** 
+**Actual result:** The Home button logs the client out of its account, as Logout button.
 
-**Test data:** 
+**Test data:** /
 
 #
 
 
 **Bug ID:** BR-56
 
-**Bug title:**
+**Bug title:** The banking app allows spaces at the beginning and end of the customer's name
 
-**Priority and severity:**
+**Priority and severity:** P3 - Low
 
-**Description:** 
+**Description:** When the name and postal code for a new customer are entered, the application allows them to be written with spaces at the beginning and at the end.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2. Click on Bank Manager login button
+3. Click on Add customer button
+4. Complete the  First Name input
+5. Complete the Last Name input
+6. Complete the Post Code input and press Add customer
 
-**Expected result:** 
+**Expected result:** The website should show an alert message that no spaces can be placed at the beginning or end of names or post codes.
 
-**Actual result:** 
+**Actual result:** The website allows spaces at the beggining and at the end of the customers names and post codes.
 
-**Test data:** 
+**Test data:** "John" in the First Name input & "Doe" in the Last Name input & "A1234" in the Post Code input
 
 #
 
 
 **Bug ID:** BR-57
 
-**Bug title:**
+**Bug title:** Any type of characters can be written in the first name and last name inputs
 
-**Priority and severity:**
+**Priority and severity:** P2 - High
 
-**Description:** 
-
-**Steps to reproduce:**
-1. 
-2. 
-3.
-
-**Expected result:** 
-
-**Actual result:** 
-
-**Test data:** 
-
-#
-
-
-**Bug ID:** BR-58
-
-**Bug title:**
-
-**Priority and severity:**
-
-**Description:** 
+**Description:** When a user wants to add a new customer to the database, at First Name and Last Name he can write any type of character, including numbers, diacritics or special characters. (See the attachment)
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
+2. Click on Bank Manager Login button
+3. Click on Add Customer button
+4. Complete the First Name and Last Name inputs with special characters and numbers
+5. Click on Add customer button
 
-**Expected result:** 
+**Expected result:** The banking app should not allow to validate names which includes special characters or numbers.
 
-**Actual result:** 
+**Actual result:** The banking app records the names of customers that contain special characters.
 
-**Test data:** 
+**Test data:** First Name: "1234" & "!@#$%" & Last Name: "1234" & "ăîțșâ,,,,.?"
+
+**Attachments:**
+
+![user name](https://user-images.githubusercontent.com/115346533/206246361-b04f2d6e-122d-45a8-a6e8-15ef16012b34.jpg)
 
 #
 
 
 **Bug ID:** BR-59
 
-**Bug title:**
+**Bug title:** There is no custom "404" error page
 
-**Priority and severity:**
+**Priority and severity:** P4 - Low
 
-**Description:** 
+**Description:** There is no custom "404" error page that tells the user that the search result does not exist, and may be directed to what they are looking for by additional hints or a search bar.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2. Write something that does not exist on this website in the home page URL
 
-**Expected result:** 
+**Expected result:** The website show a custom "404" error page with a search bar and additional hints for user to improve his searching on the website.
 
-**Actual result:** 
+**Actual result:** Nothing happens when it is searched something wrong in the home page URL.
 
-**Test data:** 
+**Test data:** "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login/pisici-mutante"
 
 #
 
 
 **Bug ID:** BR-60
 
-**Bug title:**
+**Bug title:** The banking application is not fully responsive
 
-**Priority and severity:**
+**Priority and severity:** P3 - Low
 
-**Description:** 
+**Description:** The banking application does not have a fully responsive design when it is selected a lower screen resolution.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login 
+2. Open the Console by pressing F12 key
+3. Select a lower resolution for this website (less than 800 pixels)
 
-**Expected result:** 
+**Expected result:** The banking app should have a responsive design, to match different resolutions, and to be used by customers from any type of device.
 
-**Actual result:** 
+**Actual result:** The application is not fully responsive, the writing shrinks and becomes unreadable.
 
-**Test data:** 
+**Test data:** /
 
 #
