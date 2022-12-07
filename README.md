@@ -3,6 +3,7 @@ This repository contains reports about bugs found by myself on different website
 
 ------
 
+
 ### :one: Bug Reports for the online shop https://www.demoblaze.com/ :arrow_down:
 ![demoblaze](https://user-images.githubusercontent.com/115346533/205309277-e4a57786-92f6-4ea2-a86f-328b783bb973.jpg)
 
@@ -666,72 +667,324 @@ This repository contains reports about bugs found by myself on different website
 
 **Bug ID:** BR-31
 
-**Bug title:**
+**Bug title:** The News link button in the footer of the site does not work
 
-**Priority and severity:**
+**Priority and severity:** P2 - High
 
-**Description:** 
+**Description:** The News link button in the footer of the site does not work. Specifically, it leads to an error page and does not provide any news to users.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Scroll down to the footer of the website
+3. Click on the News ("Știri") link button
 
-**Expected result:** 
+**Expected result:** It is expected to be open a new page with news about town or other relevant problems.
 
-**Actual result:** 
+**Actual result:** The link is not working, it leads to a "404" error page, without any relevant information.
 
-**Test data:** 
+**Test data:** /
 
 #
 
 
 **Bug ID:** BR-32
 
-**Bug title:**
+**Bug title:** The information of the European Projects section is incomplete
 
-**Priority and severity:**
+**Priority and severity:** P4 - Low
 
-**Description:** 
+**Description:** In the European Projects section the information is incomplete, either the project data is not specified or it is not put at all links to more detailed documents.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.primariatechirghiol.ro/
+2. Select Projects ("Proiecte") section from the header of the main page
+3. Select European Projects ("Proiecte Europene") section
+4. Try to open a link from this page
 
-**Expected result:** 
+**Expected result:** Every document from this section should have detailed information about it, like data implementation, and a link to original documents of the projects.
 
-**Actual result:** 
+**Actual result:** The projects data are not specified and it is not put at all links to more detailed documents.
 
-**Test data:** 
+**Test data:** /
 
 #
 
 
 **Bug ID:** BR-33
 
-**Bug title:**
+**Bug title:** The Town Hall Management section does not provide relevant information for citizens
 
-**Priority and severity:**
+**Priority and severity:** P2 - Normal
 
-**Description:** 
+**Description:** The Town Hall Management section does not provide relevant information for citizens about the mayor and other political leaders, such as CVs or wealth declarations.
 
 **Steps to reproduce:**
-1. 
-2. 
-3.
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Select Town Hall Management (”Conducerea primăriei”) section from the left menu of the home page
 
-**Expected result:** 
+**Expected result:** The user should find easily any relevant details or documents about the mayor of the town or other political leaders, because these are publical information for everyone.
 
-**Actual result:** 
+**Actual result:** There are missing a lot of relevant inforamtion, like CVs or wealth declarations.
 
-**Test data:** 
+**Test data:** /
 
 #
 
 
 **Bug ID:** BR-34
 
+**Bug title:** The website design is not responsive
+
+**Priority and severity:** P4 - Low
+
+**Description:** The town hall website is not at all responsive to different resolutions.
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/
+2. Open the Console by pressing F12 and select different resolutions of the website
+
+**Expected result:** The town hall website should have a responsive design on every type of screen resolution.
+
+**Actual result:** The website does not have a responsive design, the writing becomes smaller and smaller.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-35
+
+**Bug title:** There are two errors of the website into the console
+
+**Priority and severity:** P2 - High
+
+**Description:** There are two errors of the website in the Console, one related to a link that no longer exists and refers to an error page, and another is related to the CSS part and the loading of Bootstrap files.
+
+**Steps to reproduce:**
+1. Go on https://www.primariatechirghiol.ro/ 
+2. Open the Console by pressing F12 key and select the Error section
+
+**Expected result:** There should be no site error in the console after we open it.
+
+**Actual result:** There are two important error of the website into the Console.
+
+**Test data:** /
+
+------
+
+
+### :four: Bug Reports for the website of Piatra-Neamț city hall https://www.primariapn.ro/ :arrow_down:
+![pn](https://user-images.githubusercontent.com/115346533/206227630-53686641-d7d6-4a16-98e6-8715e578c4e0.jpg)
+
+
+
+**Bug ID:** BR-36
+
+**Bug title:** Copyright is incomplete, without the current year (2022)
+
+**Priority and severity:** P4 - Low
+
+**Description:** The Copyright of the website does not mention the current year (2022). Actually, it does not mention any year.
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Scroll down to the website footer, where is mentioned the Copyright
+
+**Expected result:** It is expected to see the Copyright of the website, with current year updated (2022).
+
+**Actual result:** The current year is not mentioned at all.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-37
+
+**Bug title:** The City Hall Management section does not contain links for all town hall members
+
+**Priority and severity:** P4 - Low
+
+**Description:** In the City Hall Management section ("Conducerea primăriei"), no links with additional details are inserted for all members of the mayor's office.
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Click on City Hall Management button ("Conducerea primăriei") from the left menu of the home page
+
+**Expected result:** All the members of the mayor's office should have a valid link with additional information about, like CVs.
+
+**Actual result:** Not all the members of the mayor's office have a functional link button with more relevant information.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-38
+
+**Bug title:** The "Organization Chart" document is poorly sized, with illegible writing
+
+**Priority and severity:** P4 - Low
+
+**Description:** In the Organization Chart section, the document of the same name is poorly sized, the writing is largely illegible because it has a too small font size.
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Click on Organization Chart button ("Organigramă") from the left menu
+3. Click on Organization Chart document
+
+**Expected result:** The Organization Chart document should be properly sized, and it should be easily read.
+
+**Actual result:** The writing of the Organization Chart document is largely illegible because it has a too small font size.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-39
+
+**Bug title:** The Useful Information section does not have links to all documents
+
+**Priority and severity:** P3 - Low
+
+**Description:** In the Useful Information section ("Informații utile"), not all the mentioned documents has a valid link attached, and some information is not updated for current year (2022).
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Click on Public Information from the top part of the menu
+3. Select Useful Information from the list
+
+**Expected result:** All mentioned documents should have a valid link to open them, and all information must be relevant and updated for current year.
+
+**Actual result:** Not all the mentioned documents has a valid link attached, and some information is not updated.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-40
+
+**Bug title:** The Enlarge font size button does not work properly on the Public Services section
+
+**Priority and severity:** P3 - Normal
+
+**Description:** In the Public Information / Public Services section, not all text is increased if we click on the Enlarge Font button ("Mărește Fontul") in the upper-right corner of the menu bar.
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Click on Public Information section from the top menu
+3. Select Public Services section from the list
+4. Click on Enlarge Font button
+
+**Expected result:** All the text of this section should be uniformly increased, in order to be easily read by the users.
+
+**Actual result:** Only link and titles are enlarged if we click on the Enlarge Font button.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-41
+
+**Bug title:** The online account sign up procedure involves the physical presence of the user
+
+**Priority and severity:** P1 - High
+
+**Description:** For user account registration on this site, in order to validate the user's account (step 4), the user must physically go to the Town Hall with their identity card. (See the attachment)
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Click on Online account creation procedure button ("Procedură creare cont online") from the right menu of the home page
+
+**Expected result:** The steps for creating a new account are expected to be described as clearly as possible, and to be completed exclusively online by the user.
+
+**Actual result:** To validate the online account, it is necessary that the user go to the Town Hall with they identity card, to access the account. (See the attachment, step 4)
+
+**Test data:** /
+
+**Attachments:**
+
+![cont pn](https://user-images.githubusercontent.com/115346533/206232304-a63ff240-6330-4dc3-8872-f270ed0065b3.jpg)
+
+#
+
+
+**Bug ID:** BR-42
+
+**Bug title:** The Local Police section does not contain any information
+
+**Priority and severity:** P3 - Low
+
+**Description:** The Local Police section ("Poliția Locală") does not contain any necessary information for users.
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Click on Publical Services section from the top menu
+3. Select "Local Police"
+
+**Expected result:** It is expected to see relevant information about Local Police of Piatra-Neamț, like Police stations and their adresses, phone numbers, operational staff etc.
+
+**Actual result:** The Local Police section from this site does not contain any information for the users.
+
+**Test data:** /
+
+#
+
+
+**Bug ID:** BR-43
+
+**Bug title:** The General presentation information about the town cannot be reached directly through the web interface
+
+**Priority and severity:** P2 - High
+
+**Description:** The page with general presentation information about the town cannot be reached directly, but only by searching in the direct URL, or by searching in the search bar ("city presentation"). The description also contains several typos (missing diacritics, misspelled words).
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/
+2. Search general information in the website about Piatra-Neamț
+
+**Expected result:** It is expected to exist a special button/ section with a general presentation of the town, which can be accessed easily.
+
+**Actual result:** It does not exist a direct link button to general presentation information of Piatra-Neamț. This section can be accessed only by URL or search bar.
+
+**Test data:** ”prezentare oraș” in search bar or URL
+
+#
+
+
+**Bug ID:** BR-44
+
+**Bug title:** Initially English is missing from the foreign languages translation menu
+
+**Priority and severity:** P2 - High
+
+**Description:** Initially, the English language is missing from the translation menu in foreign languages, the main language of international circulation. The English option appears only after we have selected another language from the menu. (See the attachments)
+
+**Steps to reproduce:**
+1. Go on https://www.primariapn.ro/ 
+2. Select the translation menu from the upper-right corner
+3. Select a foreign language from this menu
+
+**Expected result:** It is expected the English language to be one of the option when the translation menu is open. 
+
+**Actual result:** The English language is missing from the translation menu in foreign languages. The English option appears only after we have selected another language from the menu. (See the attachments)
+
+**Test data:** /
+
+**Attachments:**
+
+![English after another option](https://user-images.githubusercontent.com/115346533/206234480-4eec54d4-58e6-48db-b2e8-00df26d3a1cb.jpg)
+
+![Missing English](https://user-images.githubusercontent.com/115346533/206234519-5a400971-2da8-4d53-8524-47b05c207295.jpg)
+
+#
+
+
+**Bug ID:** BR-45
+
 **Bug title:**
 
 **Priority and severity:**
@@ -752,7 +1005,7 @@ This repository contains reports about bugs found by myself on different website
 #
 
 
-**Bug ID:** BR-35
+**Bug ID:** BR-46
 
 **Bug title:**
 
