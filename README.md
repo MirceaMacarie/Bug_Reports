@@ -488,7 +488,7 @@ This repository contains reports about bugs found by myself on different website
 ------
 
 
-### :three: Bug Reports for the website of Techirghiol town hall https://www.primariatechirghiol.ro/ :arrow_down:
+### :three: Bug Reports for the Techirghiol town hall website https://www.primariatechirghiol.ro/ :arrow_down:
 ![screenshot](https://user-images.githubusercontent.com/115346533/205991540-fb29d651-fd66-4d1b-abaa-75ef08515732.jpg)
 
 
@@ -773,7 +773,7 @@ This repository contains reports about bugs found by myself on different website
 ------
 
 
-### :four: Bug Reports for the website of Piatra-Neamț city hall https://www.primariapn.ro/ :arrow_down:
+### :four: Bug Reports for the Piatra-Neamț city hall website https://www.primariapn.ro/ :arrow_down:
 ![pn](https://user-images.githubusercontent.com/115346533/206227630-53686641-d7d6-4a16-98e6-8715e578c4e0.jpg)
 
 
